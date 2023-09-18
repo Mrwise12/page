@@ -1,0 +1,154 @@
+/* body{
+  background-color: bisque;
+} */
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+h1{
+  color: hsl(35, 77%, 62%);
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+}
+
+h2{
+  font-size: 1.6rem;
+  color: hsl(210, 11%, 96%);
+}
+
+li{
+  font-size: 30px;
+  color: hsl(240, 100%, 5%);
+  font-weight: 600;
+}
+
+a.nav-link:hover{
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+ p{
+  color: rgb(130, 129, 129);
+  font-size: 1.2rem;
+} 
+
+h2:hover{
+  cursor: pointer;
+  color:hsl(35, 77%, 62%) ;
+}
+
+.column-d{
+  background-color: hsl(240, 100%, 5%);
+}
+
+hr{
+  color: rgb(175, 174, 174);
+  margin-top: 1.9rem;
+  margin-bottom: 1.7rem;
+}
+
+.column-b{
+  font-size: 4rem;
+
+  font-weight: 700;
+  line-height: 1.1em;
+  display: flex;
+  
+}
+
+.dive{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.button{
+  width: 250px;
+  padding: 18px;
+  letter-spacing: .7em;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+}
+
+.button:hover{
+  background-color: hsl(240, 100%, 5%);
+}
+
+.second-h1{
+  color: hsl(236, 13%, 42%);
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.second-h2{
+  color: hsl(240, 100%, 5%);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.second-p{
+  font-weight: 500;
+  padding-right: 10px;
+  color: hsl(236, 13%, 42%);
+}
+
+.pic{
+  padding-top: 15px;
+}
+
+.close-button{
+  font-size: 30px;
+  padding-top: 50px;
+  
+  
+}
+
+.float{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+
+
+
+@media (max-width:767px){
+ .column-b{
+font-size: 1.9em;
+max-width: 100%;
+ }
+
+ .column-d{
+ max-width: 100%;
+ 
+ }
+ .column-b{
+  max-width: 100%;
+  padding-left: 10px;
+  font-size: 4em;
+  margin-top: 20px;
+ 
+ }
+
+.picture-container{
+  width: 100%;
+}
+
+.dive{
+  font-size: 1.5em;
+}
+
+.button{
+  margin-bottom: 70px;
+}
+
+} 
